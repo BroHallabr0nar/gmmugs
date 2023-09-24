@@ -1,0 +1,82 @@
+/* Set background color for the app */
+body {
+    background-color: #F9EED4; /* Replace with your desired color */
+    margin: 0;
+}
+/* In your CSS file (style.css) */
+body {
+    font-family: 'crushyourenemiesbook';
+    color: #786055; /* Change this to the color you want (e.g., red) */
+}
+/* In your CSS file (style.css) */
+.app-title {
+    font-family: 'crushyourenemiesbook';
+    color: #786055; /* Change this to the color you want (e.g., red) */
+}
+
+/* In your CSS file (style.css) */
+#download {
+    background-color: #786055; /* Change the background color to your desired color */
+    color: #fff; /* Change the text color to white or another contrasting color */
+    /* Add any other styles you want for this button */
+    font-size: larger;
+}
+
+/* In your CSS file (style.css) */
+#loadImage {
+    background-color: #786055; /* Change the background color to your desired color */
+    color: #fff; /* Change the text color to white or another contrasting color */
+    /* Add any other styles you want for this button */
+    font-size: larger;
+}
+
+/* In your CSS file (style.css) */
+.overlay-bar
+
+.overlay-button {
+    padding: 10px 20px; /* Adjust padding to change button size */
+    background-color: #786055; /* Change background color to your desired color */
+    color: #fff; /* Change text color to white or another contrasting color */
+    border: 4px; /* Remove button border */
+    border-color: #fff;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 10px; /* Add margin between the buttons */
+    font-size: large;
+}
+
+/* Style for button hover state (optional) */
+.overlay-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+
+/* Center and style the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of viewport height */
+    text-align: center;
+}
+
+/* Style the app title */
+.app-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the input section */
+.input-section {
+    margin-bottom: 20px;
+}
+
+/* Style the overlay bar */
+.overlay-bar {
+    margin-bottom: 20px;
+}
+
+/* Style the canvas */
+#canvas {
+    border: 1px solid #000;
+}

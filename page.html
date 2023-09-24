@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRO MUGS</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to an external CSS file -->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-title">GM MUGS</h1> <!-- Added title -->
+        <div class="image-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="input-section">
+            <label for="imageId">ENTER YOUR BRO #:</label>
+            <input type="number" id="imageId" min="0" max="5999">
+            <button id="loadImage">Load Image</button>
+        </div>
+        <div class="overlay-bar">
+            <!-- Create buttons to select overlay images -->
+            <button id="overlay-1" class="overlay-button">Dark</button>
+            <button id="overlay-2" class="overlay-button">Fair</button>
+            <button id="overlay-3" class="overlay-button">Tan</button>
+            <button id="overlay-4" class="overlay-button">Lightning</button>
+            <button id="overlay-5" class="overlay-button">Ice</button>
+            <button id="overlay-6" class="overlay-button">Lava</button>
+            <!-- Add more buttons for other overlays as needed -->
+            
+        </div>
+
+        <div class="download-section">
+            <button id="download" >Download Image</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
